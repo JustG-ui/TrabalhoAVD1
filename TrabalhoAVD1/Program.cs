@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 public class Aluno
 {
@@ -55,15 +55,15 @@ public class Professor
     }
 }
 class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
         Professor prof = new Professor();
         prof.Nome = "Rosenclever";
 
 
         Turma turma = new Turma();
-            turma.TurmaSala("5° Periodo", "Rosenclever");
+        turma.TurmaSala("5° Periodo", "Rosenclever");
 
 
         Aluno estudante = new Aluno();
@@ -71,5 +71,4 @@ class Program
 
         prof.EmAula(prof.Nome);
     }
-    }
-
+}
