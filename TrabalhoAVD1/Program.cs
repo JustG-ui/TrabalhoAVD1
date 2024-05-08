@@ -2,12 +2,16 @@
 
 public class Aluno
 {
+    public string Nome { get; set; }
+    public int Idade { get; set; }
+    public string Curso { get; set; }
+
 
     public void Matricular(string nome, int idade, string curso)
     {
-        string Nome = nome;
-        int Idade = idade;
-        string Curso = curso;
+        Nome = nome;
+        Idade = idade;
+        Curso = curso;
 
         Console.WriteLine("--------------------------------------------------------------------------------");
         Console.WriteLine("");
